@@ -30,8 +30,10 @@ img{
 .wrapper{
     width: 1000px;
     margin: 5px 75px 0 75px;
+    padding: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: stretch;
     /*
         TODO:
@@ -102,7 +104,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
-    
+
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
@@ -115,7 +117,7 @@ main{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 49%;
     align-items: stretch;
-
+    position: relative;
 
     /*
         TODO:
@@ -171,6 +173,7 @@ article time{
 article img{
     display: flex;
     width: 50%;
+
     /*
         TODO:
         - Float article images to the right
@@ -178,7 +181,7 @@ article img{
     */
 }
 article footer p{
-
+  text-align: center;
     /*
         TODO:
         - Style the article footer
@@ -186,8 +189,11 @@ article footer p{
     */
 }
 #site-footer{
-
+    padding: 20px;
+    margin-top: 20px;
     background: #333;
+    text-align: center;
+    color: white;
     /*
         TODO:
         - Style the site footer
