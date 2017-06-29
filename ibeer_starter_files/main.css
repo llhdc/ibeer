@@ -29,12 +29,10 @@ img{
 }
 .wrapper{
     width: 1000px;
-    margin: 5px 75px 0 75px;
-    padding: auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
     /*
         TODO:
         - Center up the page
@@ -43,7 +41,7 @@ img{
     */
 }
 #site-header{
-
+    flex-grow: 1;
     /*
         TODO
         - Flexbox property here
@@ -90,11 +88,12 @@ img{
   }
 
 #main-navigation a{
-    display: block;
+    display: flex;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    align-items: center;
     display: flex;
 
     /*
@@ -115,9 +114,10 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    width: 49%;
+    width: 55%;
     align-items: stretch;
     position: relative;
+    bottom: 50px;
 
     /*
         TODO:
@@ -130,6 +130,8 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 30%;
+    position: relative;
+    bottom: 50px;
 
     /*
         TODO:
@@ -147,6 +149,7 @@ aside img{
     border-radius: 50%;
     margin-bottom: 30px;
     border: 2px solid white;
+
 }
 article{
     background-color: white;
@@ -171,8 +174,8 @@ article time{
     color: #666;
 }
 article img{
-    display: flex;
     width: 50%;
+    float: right;
 
     /*
         TODO:
