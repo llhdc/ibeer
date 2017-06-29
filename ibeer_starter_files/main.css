@@ -115,7 +115,6 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 55%;
-    align-items: stretch;
     position: relative;
     bottom: 50px;
 
